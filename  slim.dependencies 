@@ -1,0 +1,14 @@
+[
+    {
+        "repository": "SlimRoms/kernel_lge_v500",
+        "target_path": "kernel/lge/v500",
+        "remote": "github",
+        "branch": "kk4.4"
+    },
+    {
+        "repository": "SlimRoms/proprietary_vendor_lge",
+        "target_path": "vendor/lge",
+        "remote": "github",
+        "branch": "kk4.4"
+    }
+]
