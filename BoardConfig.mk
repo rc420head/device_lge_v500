@@ -60,6 +60,9 @@ BOARD_HOSTAPD_DRIVER := NL80211
 
 BOARD_EGL_CFG := device/lge/v500/egl.cfg
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 #BOARD_USES_HGL := true
 #BOARD_USES_OVERLAY := true
 USE_OPENGL_RENDERER := true
