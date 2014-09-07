@@ -3,20 +3,20 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Get the long list of APNs
-PRODUCT_COPY_FILES := vendor/slim/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES := vendor/candykat/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from the common Open Source product configuration
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/slim/config/common.mk)
+$(call inherit-product, vendor/candykat/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/v500/v500.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := v500
-PRODUCT_NAME := slim_v500
+PRODUCT_NAME := candykat_v500
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-V500
 PRODUCT_MANUFACTURER := lge
